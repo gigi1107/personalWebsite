@@ -1,0 +1,28 @@
+.textbox {
+  background-color:rgba(255,255,255,0.5);
+  /*opacity: 50%;*/
+  z-index: 1;
+  width:300px;
+  height: auto;
+  border-radius: 50px;
+  margin-left: 35%;
+
+  margin-top:15%;
+
+}
+
+.text {
+  font-family: Avenir;
+  font-size: large;
+  padding: 20px;
+  opacity: 1;
+
+}
+
+.image {
+  overflow:hidden;
+  background-image: url('https://i0.wp.com/vcvoices.org/wp-content/uploads/2017/05/sunflowers.jpg?zoom=2&fit=1024%2C640');
+  height: 800px;
+  width: 100%;
+  margin-top: 0px !important;
+}
