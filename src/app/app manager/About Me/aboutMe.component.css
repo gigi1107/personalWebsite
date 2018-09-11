@@ -1,0 +1,11 @@
+.portrait {
+  data-flickr-embed: "true";
+  background-image: url("https://farm2.staticflickr.com/1861/29682791377_d0f7e5708f_z.jpg");
+  height: 600px;
+  width: 1000px;
+}
+
+
+.text-font {
+  font-family: Avenir;
+}

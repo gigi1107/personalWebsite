@@ -11,7 +11,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { Router } from '@angular/router';
 import {AboutMeComponent} from './app manager/About Me/aboutMe.component';
-import {ResumeComponent} from './app manager/Resume/resume.component';
+import {ResumeComponent, SafePipe} from './app manager/Resume/resume.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -20,14 +21,16 @@ import {ResumeComponent} from './app manager/Resume/resume.component';
     HomeComponent,
     HobbiesComponent,
     ResumeComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,
     MatCardModule,
     MatButtonModule,
     MatGridListModule,
-    RouterModule
+    RouterModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,6 @@
+.frame-format {
+  height:1000px;
+  width: 1000px;
+  border:none;
+  overflow-y: scroll;
+}
