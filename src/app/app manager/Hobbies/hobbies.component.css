@@ -1,51 +1,69 @@
-.book-header-img {
-  background-image: url('https://www.incimages.com/uploaded_files/image/970x450/getty_883231284_200013331818843182490_335833.jpg');
-  background-size: cover;
-}
-.header-background {
-  background-color: azure;
-  height: fit-content;
-  width: 250px;
-  border-radius: 50px;
-  cursor: pointer;
-}
-.baking-header-img {
-  data-flickr-embed:"true" ;
-  background-image: url('https://farm2.staticflickr.com/1870/43698575865_ee77d20e11_z.jpg');
-  background-size: cover;
-}
+
+/*.header-background {*/
+  /*background-color: azure;*/
+  /*height: fit-content;*/
+  /*width: 250px;*/
+  /*border-radius: 50px;*/
+  /*cursor: pointer;*/
+/*}*/
+
 .grid-list {
-  height:700px;
+  width:100%;
+  display: flex;
+  /*flex: 2;*/
+}
+
+.text-style {
+  font-family: "Arial Rounded MT Bold";
+  font-size: xx-large;
+
+}
+
+.container {
+  position: relative;
+}
+
+.container-outer {
+  height:600px;
   overflow-y: scroll;
   display: flex;
-
-}
-.cooking-header-img {
-  background-image: url('https://assets.bonappetit.com/photos/5aa9665c275dc52331d9184b/16:9/w_2560,c_limit/pantry-pasta.jpg');
-  background-size: cover;
-
+  flex-wrap: wrap;
+  flex: 3;
 }
 
-.exercise-img {
-  background-image: url('https://images-na.ssl-images-amazon.com/images/I/81wDb983yaL._SX679_.jpg');
-  background-size: 40px;
-}
-
-.spacer {
-  padding-bottom: 20px;
-}
-
-mat-card-title {
-  font-size: large;
-  font-family: AppleGothic;
-}
-
-mat-card-content {
-  font-size: medium;
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
   font-family: Avenir;
-  /*font-style: italic;*/
 }
-mat-card:hover {
+
+.sidebar {
+  width: 100%;
+  font-family: Avenir;
+  /*padding-left: 25px;*/
+  padding-top: 15%;
+  flex: 1;
+}
+
+img {
+  /*display: block;*/
+  height: 450px;
+  width: 500px;
+  object-fit: cover;
   opacity: 0.5;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
+
 }
+
+img:hover {
+  cursor: pointer;
+  opacity: 0.1;
+}
+
+a {
+  margin-right: 1px;
+  padding-right: 1px;
+}
+
