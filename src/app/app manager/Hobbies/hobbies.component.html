@@ -1,7 +1,8 @@
 <div class="grid-list">
   <div class="container-outer">
 
-    <div class="container">
+    <div class="container" (mouseover)="sidebarText= 'Click to see what books I\'ve most recently read, as well as my thoughts on them (LINK DOES NOT WORK YET)'"
+    (mouseleave)="sidebarText = ''">
       <a>
         <img src="https://d1nz104zbf64va.cloudfront.net/dt/a/o/top-7-books-that-changed-the-world.jpg">
       </a>
@@ -10,7 +11,8 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" (mouseover)="sidebarText = 'Click to see a portfolio of some of my baked goods. Breads, Cakes, Pies, and more!'"
+    (mouseleave)="sidebarText = ''">
       <a data-flickr-embed="true" href="https://www.flickr.com/photos/144020287@N04/albums/72157699613888571">
         <img src="https://farm2.staticflickr.com/1870/43698575865_ee77d20e11_z.jpg">
       </a>
@@ -19,7 +21,8 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" (mouseover)="sidebarText = 'See some things that I\'ve cooked. Foods include homemade pastas and more! '"
+    (mouseleave)="sidebarText = ''">
       <a data-flickr-embed="true" href="https://www.flickr.com/photos/144020287@N04/albums/72157695365806880">
         <img src="https://farm2.staticflickr.com/1861/44558749232_079301684a_z.jpg">
       </a>
@@ -28,7 +31,8 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" (mouseover)="sidebarText = 'Click to see some of my favorite activites (LINK DOES NOT WORK YET)'"
+    (mouseleave)="sidebarText = ''">
       <a>
         <img src="https://farm2.staticflickr.com/1893/43889643364_db0fc952c0_z.jpg">
       </a>
@@ -40,7 +44,7 @@
 
   </div>
   <div class="sidebar">
-    some text here when hover happens
+    {{sidebarText}}
   </div>
 </div>
 

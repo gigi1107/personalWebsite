@@ -21,10 +21,10 @@
 
 .background-image {
   data-flickr-embed:"true";
-  background-image: url("https://farm2.staticflickr.com/1864/44557753402_fb1138cbf0_z.jpg");
+  background-color: aliceblue;
   width:100% ;
   height:100%;
-  opacity:0.5;
+
 
 }
 

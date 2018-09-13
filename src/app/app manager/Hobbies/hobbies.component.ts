@@ -6,5 +6,6 @@ import {Component} from '@angular/core';
   styleUrls: ['./hobbies.component.css']
 })
 export class HobbiesComponent {
+  sidebarText = 'Hover over any of the boxes for more info, or click on them to link to my work!';
 
 }
