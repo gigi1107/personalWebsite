@@ -4,10 +4,11 @@
   height: 600px;
   width: 1000px;
   margin-right: 25px;
+  background-repeat: no-repeat;
 }
 
 
 .text-font {
-  font-family: Avenir;
+  font-family: Helvetica ;
 }
 
