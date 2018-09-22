@@ -13,8 +13,8 @@
 
 .text {
   font-family: Helvetica;
-  font-size: large;
-  padding: 20px;
+  font-size: 100%;
+  padding: 5%;
   opacity: 1;
 
 }
