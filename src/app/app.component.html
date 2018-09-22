@@ -1,17 +1,20 @@
 <mat-card>
-  <mat-card class="background-image">
+  <div class="background-image">
+    <div style="padding: 2%; display: flex">
       <div class="title-font">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Poiret+One" rel="stylesheet">
         Geneva Rose Davidson
       </div>
 
 
-    <div class="button-margin">
-      <button mat-button class="button-font" routerLink="/home">Home</button>
-      <button mat-button class="button-font" routerLink="/about-me">About Me</button>
-      <button mat-button class="button-font" routerLink="/hobbies">Hobbies</button>
-      <button mat-button class="button-font" routerLink="/portfolio">Portfolio</button>
+      <div class="button-margin">
+        <button mat-button class="button-font" routerLink="/home">Home</button>
+        <button mat-button class="button-font" routerLink="/about-me">About Me</button>
+        <button mat-button class="button-font" routerLink="/hobbies">Hobbies</button>
+        <button mat-button class="button-font" routerLink="/portfolio">Portfolio</button>
+      </div>
     </div>
-  </mat-card>
+  </div>
   <div class="spacer"></div>
   <router-outlet></router-outlet>
 </mat-card>

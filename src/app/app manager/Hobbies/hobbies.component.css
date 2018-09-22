@@ -24,6 +24,8 @@ html, body {
   flex-direction: column;
   flex: 4;
   width: 100%;
+  /*background-color: aliceblue;*/
+
 }
 
 .center-text {
@@ -32,11 +34,11 @@ html, body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 25px;
-  font-family: Helvetica;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .sidebar {
-  font-family: Helvetica;
+  font-family: 'Poiret One';
   font-size: large;
   padding-left: 5%;
   padding-top: 15%;
