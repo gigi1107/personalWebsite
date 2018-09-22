@@ -1,8 +1,9 @@
 .portrait {
-  margin-right: 5%;
+  margin-right: 2%;
   background-repeat: no-repeat;
   width: 100%;
   object-fit: cover;
+  flex:1;
 
   /*height: 100%;*/
 }
@@ -11,7 +12,7 @@
 .text-font {
   font-family: Helvetica;
   opacity: 0.7;
-  padding-left: 5%;
+  flex:4;
 
 }
 
